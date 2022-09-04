@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430045871043",
+    "project_id": "music-firebase-3cdca",
+    "storage_bucket": "music-firebase-3cdca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430045871043:android:548d55184f49f8a4f2db76",
+        "android_client_info": {
+          "package_name": "com.vectorinc.musicfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430045871043-j88l4c2a31d2ioh29kbpn9lc4n0upejm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAmULhvrHGK7wexXuqofTD8S8_zSUhCGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430045871043-j88l4c2a31d2ioh29kbpn9lc4n0upejm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
