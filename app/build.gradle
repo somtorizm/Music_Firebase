@@ -73,11 +73,9 @@ dependencies {
     // Activity KTX for viewModels()
     implementation "androidx.activity:activity-ktx:1.5.1"
 
-    //Dagger - Hilt
-    implementation "com.google.dagger:hilt-android:2.41"
-    kapt "com.google.dagger:hilt-android-compiler:2.40.5"
-    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
-    kapt "androidx.hilt:hilt-compiler:1.0.0"
+    ///Dagger-Hilt
+    implementation("com.google.dagger:hilt-android:2.41")
+    kapt("com.google.dagger:hilt-android-compiler:2.40.5")
 
     // Timber
     implementation 'com.jakewharton.timber:timber:4.7.1'
@@ -89,7 +87,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage-ktx:20.0.2'
 
     // Firebase Coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.1.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.3'
 
     // ExoPlayer
     api "com.google.android.exoplayer:exoplayer-core:2.18.1"
