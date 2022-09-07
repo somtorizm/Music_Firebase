@@ -31,6 +31,7 @@ object ServiceModule {
     ) = ExoPlayer.Builder(context).build().apply {
         setAudioAttributes(audioAttributes, true)
         setHandleAudioBecomingNoisy(true)
+
     }
 
     @ServiceScoped
